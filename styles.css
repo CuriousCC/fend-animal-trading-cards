@@ -1,0 +1,66 @@
+/* add your CSS here */
+/* add your CSS here */
+body{
+	background: url("bg-img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.card{
+	width:300px;
+	border: 1px solid #efeff5;
+	padding:10px;
+	-webkit-box-shadow: 4px 4px 0px 2px rgba(239,239,245,1);
+	-moz-box-shadow: 4px 4px 0px 2px rgba(239,239,245,1);
+	box-shadow: 4px 4px 0px 2px rgba(239,239,245,1);
+	margin:10px auto;
+	font-family:Arial,Helvetica Neue,Helvetica,sans-serif; 
+	font-size: 14px;
+	background: url("bg-water.jpg");
+	background-size: 500px 900px;
+	background-repeat: no-repeat;
+}
+h3{
+	font-size:20px;
+	border: 2px solid white;
+  	background: #fefefeb3;
+  	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+
+}
+img{
+	width: 300px;
+	height: 200px;
+	margin: 10px auto;
+	border-radius: 5px;
+	border: 2px solid white;
+  	background: #fefefeb3;
+
+}
+
+#main-content{
+	padding:10px;
+  	line-height:1.4;
+  	border: 2px solid white;
+  	background: #fefefeb3;
+	border-radius: 5px;
+
+}
+#interesting-fact{
+	font-style:italic;
+  font-size: 14.5px;
+}
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+#item-labels{
+	font-weight: bold;
+}
+#description{
+	
+}
+
+
