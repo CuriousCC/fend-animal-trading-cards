@@ -1,21 +1,16 @@
 /* add your CSS here */
 /* add your CSS here */
 body{
-	background: url("bg-img.jpg");
+	background: url("bg-img.jpg") no-repeat center;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-
 }
 .card{
 	width:300px;
 	padding:15px;
 	margin:15px;
 	font-family: 'RanchersRegular'; 
-	background: url("bg-water.jpg");
+	background: url("bg-water.jpg") no-repeat left;
 	background-size: 500px 660px;
-	background-repeat: no-repeat;
-	background-position: left;
 	border: 5px solid white;
 	border-radius: 5px;
 	box-shadow: 2px 2px 15px 1px #0088cc;
