@@ -65,11 +65,24 @@ ul{
 	font-size: 20px;
 	line-height: 1.2;
 }
-.item-labels{
-	font-weight: bold;
-}
+
 #description{
 	margin: 5px;
 }
-
-
+	font-family: 'ShwumatikRegular'; 
+	font-size: 20px;
+	text-align: center;
+	border-radius: 5px;
+	background: #fefefeb3;
+	line-height: 0;	
+	padding: 5px; 
+	margin: 0 33% 5px 33%; 
+	position: absolute;
+	top: 0;	
+	right: 0;
+}
+	color: navy;
+}
+.bold{
+	font-weight: bold;
+}
