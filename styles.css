@@ -9,26 +9,29 @@ body{
 }
 .card{
 	width:300px;
-	border: 1px solid #efeff5;
-	padding:10px;
-	-webkit-box-shadow: 4px 4px 0px 2px rgba(239,239,245,1);
-	-moz-box-shadow: 4px 4px 0px 2px rgba(239,239,245,1);
-	box-shadow: 4px 4px 0px 2px rgba(239,239,245,1);
-	margin:10px auto;
-	font-family:Arial,Helvetica Neue,Helvetica,sans-serif; 
-	font-size: 14px;
+	padding:15px;
+	margin:15px;
+	font-family: 'RanchersRegular'; 
 	background: url("bg-water.jpg");
-	background-size: 500px 900px;
+	background-size: 500px 660px;
 	background-repeat: no-repeat;
+	background-position: left;
+	border: 5px solid white;
+	border-radius: 5px;
+	box-shadow: 2px 2px 15px 1px #0088cc;
 }
-h3{
-	font-size:20px;
-	border: 2px solid white;
-  	background: #fefefeb3;
+
+#card-title{
+	font-size:25px;
+	border: 2px solid #0088cc;
+	background:  #e6f7ff;
+	box-shadow: 2px 2px 2px #0088cc;
   	padding: 5px;
 	border-radius: 5px;
 	text-align: center;
-
+	margin: 0 auto;
+	line-height: 2;
+	letter-spacing: 2px;
 }
 img{
 	width: 300px;
@@ -36,7 +39,7 @@ img{
 	margin: 10px auto;
 	border-radius: 5px;
 	border: 2px solid white;
-  	background: #fefefeb3;
+	box-shadow: 2px 2px 2px #0088cc;
 
 }
 
@@ -46,21 +49,27 @@ img{
   	border: 2px solid white;
   	background: #fefefeb3;
 	border-radius: 5px;
+	box-shadow: 2px 2px 2px #0088cc;
 
 }
 #interesting-fact{
 	font-style:italic;
-  font-size: 14.5px;
+	font-size: 16px;
+	margin: 5px;
 }
 ul{
 	list-style: none;
 	padding-left: 0;
+	/* font-family:Arial,Helvetica Neue,Helvetica,sans-serif;  */
+	font-family: 'ManicMondayRegular'; 
+	font-size: 20px;
+	line-height: 1.2;
 }
-#item-labels{
+.item-labels{
 	font-weight: bold;
 }
 #description{
-	
+	margin: 5px;
 }
 
 
