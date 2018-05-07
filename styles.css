@@ -1,7 +1,7 @@
 /* add your CSS here */
 /* add your CSS here */
 body{
-	background: url("bg-img.jpg") no-repeat center;
+	background: url("images/bg-img.jpg") no-repeat center;
 	background-size: cover;
 }
 .card{
@@ -9,7 +9,7 @@ body{
 	padding:15px;
 	margin:15px;
 	font-family: 'RanchersRegular'; 
-	background: url("bg-water.jpg") no-repeat left;
+	background: url("images/bg-water.jpg") no-repeat left;
 	background-size: 500px 660px;
 	border: 5px solid white;
 	border-radius: 5px;
